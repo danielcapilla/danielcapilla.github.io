@@ -50,5 +50,10 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
+    $('#portfolioModal1').on('hidden.bs.modal', function (e) {
+        // Encuentra el iframe dentro del modal y reinicia su contenido
+        var iframe = $(this).find('iframe');
+        iframe.attr('src', iframe.attr('src'));
+    });
 
 });
