@@ -608,6 +608,12 @@
                                     <strong>What I used:</strong> Unity (C#), Visual Studio, Netcode for
                                     GameObjects, Github.
                                 </p>
+                                <p class="mb-4 text-justify">
+                                    You can view the code here: <a href="https://github.com/danielcapilla/NetcodeGame">
+                                        <strong>
+                                            NetcodeGame
+                                        </strong>
+                                </p></a>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
                                     Close
@@ -1107,12 +1113,12 @@
                                     utilizing the OpenGL API.
                                 </p>
                                 <p class="mb-4 text-justify">
-                                    <strong>What I did:</strong>I implemented a 3D scene from scratch using the OpenGL
-                                    API, following the rasterization graphics pipeline. This project included the
-                                    development and integration of various types of lighting, such as point lights,
-                                    directional lights, and spotlights, with distance attenuation functions and penumbra
-                                    effects for the spotlights. Additionally, I implemented a normal map to enhance the
-                                    surface detail of objects in the scene.
+                                    <strong>What I did:</strong>In this project, I focused on configuring and
+                                    fine-tuning the OpenGL rendering pipeline and fully implemented all shaders from
+                                    scratch. I developed and integrated multiple lighting models, including point
+                                    lights, directional lights, and spotlights, featuring distance attenuation functions
+                                    and realistic penumbra effects. Additionally, I implemented normal mapping to
+                                    enhance the perceived surface detail and visual quality of the scene
                                     <br>
                                     Furthermore, I developed another scene incorporating two shaders: one for
                                     preprocessing and another for postprocessing. These shaders allowed me to add
@@ -1247,10 +1253,18 @@
                                             Physics scenes
                                         </strong>
                                 </p></a>
-                                <button class="btn btn-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    Close
-                                </button>
+                                <div class="d-flex flex-column align-items-center">
+                                    <!-- Download button -->
+                                    <a href="https://mega.nz/file/Q4kDnQ7L#X0axCxg6vLBXeTZ10OC8ZBcMABCMo6GyTQuwbeKDdJU"
+                                        download class="btn btn-primary mb-2">
+                                        <i class="fas fa-download fa-fw"></i>
+                                        Download
+                                    </a>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1395,14 +1409,15 @@
                                 </p>
 
                                 <p class="mb-4 text-justify">
-                                    <strong>What I did:</strong> I implemented the rendering passes required for
-                                    physically based rendering (PBR) in Vulkan, including a depth pre-pass, SSAO, and
-                                    shadow mapping.
-                                    I also addressed common shadow mapping artifacts using bias correction and PCF
-                                    filtering for soft shadows.
-                                    Additionally, I implemented RTX-based shadows using acceleration structures (BLAS
-                                    and TLAS) to achieve realistic lighting and reflections.
-                                    Beyond the real-time renderer, I completed a set of path tracing exercises in
+                                    <strong>What I did:</strong> In this project, I worked on an existing Vulkan-based
+                                    rendering engine, where I implemented and integrated multiple rendering passes to
+                                    better understand the graphics pipeline. These included a depth pre-pass, SSAO, and
+                                    shadow mapping for physically based rendering (PBR).
+
+                                    I also addressed common shadow mapping artifacts through bias correction and PCF
+                                    filtering to achieve soft shadows. Additionally, I implemented RTX-based shadows
+                                    using acceleration structures (BLAS and TLAS) to obtain more realistic shadows.
+                                    Additionally, I completed offline path tracing exercises in
                                     <em>Nori</em>, implementing recursive light transport, BSDF sampling, and indirect
                                     illumination.
                                 </p>
